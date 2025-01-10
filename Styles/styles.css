@@ -106,8 +106,79 @@
   font-style: italic;
 }
 
+/* Shared Styles */
+.btn-primary{
+  width: 116px;
+  height: 52px;
+  border-radius: 8px;
+  color: #006A50;
+  background-color: transparent;
+  border: 1px solid #006A50;
+  font-size: 18px;
+  font-weight: 600;
+}
+.btn-secondary{
+  border-radius: 8px;
+  color: white;
+  background-color:#006A50 ;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 17px 34px 17px 34px;
+}
+
+
 /* Nav Bar Styles */
 nav{
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 160px;
+  padding: 31px 160px 31px 160px;
+
+}
+
+.nav-title{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Banner Styles */
+
+.hero-img{
+  width: 474px;
+  height: 400px;
+  margin-left: 120px;
+}
+
+.banner-main{
+  display: flex;
+  margin: 20px 160px 86px 160px;
+  background-color: #C6E4D6;
+  border-radius: 24px;
+  padding: 60px 117px 60px 117px;
+  height: 560px;
+  align-items: center;
+  gap: 64px;
+}
+
+.banner-subtitle{
+  font-size: 24px;
+  font-weight: 500px;
+  color: #0E0E0E;
+  opacity: .5;
   
 }
+.banner-title{
+  font-size: 56px;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 24px;
+
+}
+.banner-content{
+  width: 622px;
+}
+
+
+
