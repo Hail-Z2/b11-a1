@@ -155,7 +155,8 @@ nav{
   font-weight: bold;
 }
 .main-bg{
-  background-color: #F5F5F5;
+  background-color: #f5fbfc;
+  
 }
 /* Banner Styles */
 
@@ -194,6 +195,43 @@ nav{
 .banner-content{
   width: 622px;
 }
+/* Pillar Styles */
+.P-O-B{
+  margin: 80px 160px 80px 160px;
+}
+
+.pillar-heading{
+  font-size: 40px;
+  font-weight: bold;
+}
+.pillar-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  
+}
+
+.pillar-card{
+  background-color: white;
+  border-radius:16px;
+  padding: 32px;
+  height: 244px; 
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+  
+}
+.pillar-title{
+  color: rgba(14, 14, 14, 0.8);
+  font-weight: bold;
+  padding-top: 30px;
+}
+.pillar-description{
+  color:rgba(14, 14, 14, 0.7) ;
+  padding-top: 0px;
+}
+
+
+
+
 
 /* Vision Styles */
 .vision{
@@ -343,6 +381,7 @@ nav{
   
   margin: 80px 160px 32px 160px;
   
+  
 }
 .news-title{
   font-size: 40px;
@@ -364,7 +403,11 @@ nav{
   gap: 32px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   border-radius: 24px;
+  background-color: white;
+  margin-top: 24px;
+  
 }
+
 
 .satelite{
   border-radius: 24px;
@@ -484,4 +527,22 @@ nav{
   text-align: center;
   padding: 24px 329px 80px 329px;
   opacity: 0.7;
+}
+
+/* End styles */
+.end-section{
+  margin: 80px 160px 0px 160px;
+}
+.end-title{
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+.hr{width: 1122px;
+opacity: 0.7;}
+.end-icon{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 32px 740px 50px 740px;
 }
