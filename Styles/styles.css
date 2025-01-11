@@ -375,6 +375,52 @@ nav{
   color: #0E0E0E;
   opacity: .6;
 }
+/* Questions Styles */
+.questions{
+  margin: 80px 160px 80px 160px;
+}
+.que-title{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+td{
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.td{text-align: center;}
+.opinion{
+  padding: 24px;
+  font-size: 16px;
+  
+}
+
+.option{
+  width: 152px;
+  height: 44px;
+  text-align: center;
+  background-color: #C6E4D6;
+  border-radius: 4px;
+  font-weight: bold;
+  
+}
+
+.h-td{
+  padding: 24px;
+  background-color: #C6E4D6;
+  font-weight: bold;
+}
+
+.h-td-s{
+  text-align: center;
+  background-color: #C6E4D6;
+  font-weight: bold;
+}
 
 /* News Styles */
 .news{
